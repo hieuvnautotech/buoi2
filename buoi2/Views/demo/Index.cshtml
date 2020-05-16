@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    HangHoa HH = new HangHoa
+    { 
+                MaHangHoa = 1,
+                TenHangHoa = "HP",
+                DonGia = 22190000,
+                GiamGia = 0.05
+        };// kieu khai bao properties
+
+    //vd 2
+    HangHoa HH2 = new HangHoa();
+    HH2.TenHangHoa = "bia sai gon";
+    HH2.DonGia = 13000;
+    HH2.MaHangHoa = 2;
+
+    
+}
+host/demo <br />
+host/demo/Index <br />
+<h1>Index</h1>
+<div>
+    @HH.TenHangHoa - @HH.GiaBan
+</div>
+
+<div>
+    @HH2.TenHangHoa - @HH2.GiaBan
+</div>
