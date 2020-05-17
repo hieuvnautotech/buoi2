@@ -15,7 +15,7 @@ namespace buoi2.Models
 
         public double ChuVi { get; set; }
 
-        public virtual void TinhDienTichChuVi() 
+        public virtual void TinhDienTichChuVi() //virtual cho phep overide
         {
             
         }
